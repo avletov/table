@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+}
+
+.root {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.table__row {
+  cursor: pointer;
+  background-color: rgb(100, 100, 100);
+}
+
+.active {
+  background-color: rgb(80, 80, 80);
+}
+
+.table__body {
+  position: relative;
+}
+
+.table__cell {
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid rgb(150, 150, 150);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(216, 216, 216);
+}
+
+.table__cell_npp {
+  width: 50px;
+}
+
+.table__cell_user {
+  width: 200px;
+  text-align: left;
+}
+
+.table__cell_task {
+  width: 250px;
+  text-align: left;
+}
+
+.table__cell_date {
+  width: 150px;
+}
